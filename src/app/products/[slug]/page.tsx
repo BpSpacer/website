@@ -78,7 +78,7 @@ export async function generateStaticParams() {
       current
     }
   }`;
-  const res: SanityProducts[] = await client.fetch(query);
+  const res: SanityProducts[] = await client.fetch(query,{ mode: 'no-cors'});
 
   return res.map((product) => ({
     slug: product.slug.current,

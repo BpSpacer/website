@@ -4,7 +4,9 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const GET = async (
   request: NextRequest,
+  
   { params: { userId } }: { params: { userId: string } }
+  
 ) => {
   if (!userId) {
     return NextResponse.json({ message: "Invalid User ID" });
