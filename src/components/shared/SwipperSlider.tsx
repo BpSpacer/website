@@ -1,6 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/swiper.min.css";
+import "swiper";
 import Image from "next/image";
 import Link from "next/link";
 import { urlForImage } from "../../../sanity/lib/image";
