@@ -7,5 +7,9 @@ export const client = createClient({
   dataset,
   projectId,
   useCdn,
+<<<<<<< HEAD
   token: process.env.SANITY_SECRET_TOKENS,
+=======
+  token: process.env.SANITY_SECRET_TOKEN,
+>>>>>>> c25f7bf0d432cfe815fec878be5bce6cb0f07709
 });
